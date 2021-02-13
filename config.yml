@@ -1,0 +1,20 @@
+title: Data Science for All
+description: >-
+  This course is designed for everyone to learn from anywhere, irrespective of
+  their educational background. It has been tailor made as per the learner's
+  need and updated with the current market standards for those who want to have
+  a career in Data Science!
+template:
+  repo: data-science-for-all-template
+  name: data-science-for-all
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
